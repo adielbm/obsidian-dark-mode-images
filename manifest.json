@@ -1,0 +1,10 @@
+{
+	"id": "darkmode-svg-filter",
+	"name": "Dark Mode SVG Filter",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically applies an invert filter to SVG images in dark mode for better visibility",
+	"author": "adielbm",
+	"authorUrl": "https://github.com/adielbm",
+	"isDesktopOnly": false
+}

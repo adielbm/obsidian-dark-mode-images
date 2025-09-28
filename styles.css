@@ -1,0 +1,35 @@
+/* Styles for Dark Mode SVG Filter Plugin */
+
+/* Ensure the filter SVG is completely hidden and doesn't interfere */
+svg[style*="position: fixed"][style*="width: 0"][style*="height: 0"] {
+	visibility: hidden;
+	pointer-events: none;
+	z-index: -1000;
+}
+
+/* Optional: Add a subtle transition for smooth filter application */
+svg,
+img[src$=".svg"],
+img[src*=".svg"] {
+	transition: filter 0.2s ease-in-out;
+}
+
+/* Ensure filtered SVGs maintain their original display properties */
+[data-darkmode-filtered] {
+	/* The filter is applied via JavaScript, this just ensures no layout disruption */
+	display: inherit;
+}
+
+/* In case we need to style the plugin in settings or other contexts */
+.darkmode-svg-filter-setting {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 0;
+}
+
+.darkmode-svg-filter-description {
+	color: var(--text-muted);
+	font-size: 0.875rem;
+	margin-top: 0.25rem;
+}
