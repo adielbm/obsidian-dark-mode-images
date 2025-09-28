@@ -1,8 +1,7 @@
 # Dependencies
 node_modules/
 
-# Build output
-main.js
+# Build output (keep main.js for releases)
 main.js.map
 
 # OS
@@ -18,6 +17,9 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Development files
+main-backup.ts
 
 # Runtime data
 pids

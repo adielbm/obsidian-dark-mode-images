@@ -15,7 +15,7 @@
     "svg",
     "filter"
   ],
-  "author": "Your Name",
+  "author": "adielbm",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.6",

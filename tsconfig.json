@@ -17,6 +17,9 @@
 		]
 	},
 	"include": [
-		"**/*.ts"
+		"main.ts"
+	],
+	"exclude": [
+		"main-backup.ts"
 	]
 }
