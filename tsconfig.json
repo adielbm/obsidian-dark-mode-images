@@ -18,8 +18,5 @@
 	},
 	"include": [
 		"main.ts"
-	],
-	"exclude": [
-		"main-backup.ts"
 	]
 }
