@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-darkmode-svg-filter",
+  "name": "obsidian-dark-mode-images",
   "version": "1.0.0",
-  "description": "Obsidian plugin that applies SVG filters to images in dark mode",
+  "description": "Obsidian plugin that adapts images for dark mode",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
@@ -12,8 +12,8 @@
     "obsidian",
     "plugin",
     "dark-mode",
-    "svg",
-    "filter"
+    "images",
+    "dark-mode-images"
   ],
   "author": "adielbm",
   "license": "MIT",

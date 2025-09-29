@@ -33,6 +33,6 @@ jobs:
           tag="${GITHUB_REF#refs/tags/}"
           
           gh release create "$tag" \
-            --title="Dark Mode SVG Filter $tag" \
+            --title="Dark Mode Images $tag" \
             --notes="Release $tag" \
             main.js manifest.json styles.css
