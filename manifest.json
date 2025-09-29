@@ -1,7 +1,7 @@
 {
 	"id": "dark-mode-images",
 	"name": "Dark Mode Images",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Automatically adapts images for dark mode so they remain legible and visually consistent",
 	"author": "adielbm",
