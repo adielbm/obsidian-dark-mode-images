@@ -35,4 +35,4 @@ jobs:
           gh release create "$tag" \
             --title="Dark Mode Images $tag" \
             --notes="Release $tag" \
-            main.js manifest.json styles.css
+            main.js manifest.json

@@ -17,7 +17,7 @@ class DarkModeImagesSettingTab extends PluginSettingTab {
 		const {containerEl} = this;
 		containerEl.empty();
 
-	containerEl.createEl('h2', {text: 'Dark Mode Images settings'});
+	containerEl.createEl('h2', {text: 'Dark Mode Images'});
 
 		// input for extensions
 		const input = containerEl.createEl('input', {type: 'text'});
