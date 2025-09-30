@@ -1,0 +1,11 @@
+#dark-mode-images-svg {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    pointer-events: none !important;
+}
+:is(body.theme-dark, body.is-dark, .theme-dark) :is(.markdown-preview-view, .cm-editor) img.dark-mode-images-img {
+    filter: url(#dark-mode-images-svg-filter) !important;
+}
